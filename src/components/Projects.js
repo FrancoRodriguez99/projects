@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../img/ecw.PNG";
 
 class Projects extends React.Component {
   render() {
@@ -22,6 +23,7 @@ class Projects extends React.Component {
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -46,19 +48,17 @@ class Projects extends React.Component {
             <div class="carousel-item">
               <div class="d-flex justify-content-center">
                 <a
-                  href="https://codepen.io/JFrancoRodriguez/pen/WNdZZZY"
+                  href="https://francorodriguez99.github.io/ecommerceweb/"
                   target="_blank"
                 >
-                  <img
-                    src="https://i.ibb.co/z6jSNsQ/rfp.png"
-                    alt="Satisfaction Formulary"
-                  />
+                  <img src={image} alt="Ecomercee" />
                 </a>
               </div>
               <div class="carousel-caption d-none d-md-block">
-                <h5>Satisfaction Formulary</h5>
+                <h5>Ecommerce WebPage (in progress) English/Spanihs</h5>
                 <p className="text-description-project">
-                  A web page to check a client satisfaction whit a service.
+                  A web page that can change language, display a product, and
+                  the front end of a store.
                 </p>
               </div>
             </div>
@@ -99,6 +99,25 @@ class Projects extends React.Component {
                 <p className="text-description-project">
                   You can add to-do activities, mark them as done, or remove
                   them, and all will be saved in a testing API
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <a
+                  href="https://codepen.io/JFrancoRodriguez/pen/WNdZZZY"
+                  target="_blank"
+                >
+                  <img
+                    src="https://i.ibb.co/z6jSNsQ/rfp.png"
+                    alt="Satisfaction Formulary"
+                  />
+                </a>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Satisfaction Formulary</h5>
+                <p className="text-description-project">
+                  A web page to check a client satisfaction whit a service.
                 </p>
               </div>
             </div>
