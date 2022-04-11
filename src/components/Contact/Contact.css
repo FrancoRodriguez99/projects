@@ -1,0 +1,13 @@
+#contact{
+    background-color: rgb(56, 121, 56);
+    
+    
+
+}
+
+#contact ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}

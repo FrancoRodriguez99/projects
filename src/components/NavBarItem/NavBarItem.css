@@ -1,0 +1,22 @@
+#navbar li{
+
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-top: 5px;
+    
+}
+
+#navbar a{
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding: 3px;
+    color: black;
+    border: 2px;
+    border-style: inset;
+    border-color: #F0A64A;
+    border-radius: 5%;
+    background-color: rgba(247, 194, 142, 0.4);
+    
+    
+}

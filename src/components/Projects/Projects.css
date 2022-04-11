@@ -1,0 +1,14 @@
+#projects{
+    background-color: rgb(204, 190, 255);
+    padding: 0;
+    margin: 0;
+    
+}
+
+#projects h2{
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 30px;
+}

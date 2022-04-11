@@ -1,0 +1,30 @@
+#changeLang{
+    width: 15%;
+}
+
+.OtherLang{
+    display: none;
+}
+
+.Currentlang{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    border-style: none;
+    
+}
+
+#changeLang:hover .OtherLang {
+    display: table;
+}
+
+img{
+    width: 15%;
+}
+
+#visiblebutton{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}

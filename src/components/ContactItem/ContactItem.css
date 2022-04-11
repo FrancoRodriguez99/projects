@@ -1,0 +1,20 @@
+#contact li{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+#contact img{
+    height: 75px;
+    width: 75px;
+}
+
+#contact a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(245, 125, 125);
+    font-weight: 900;
+    font-size: 18px;
+
+}
