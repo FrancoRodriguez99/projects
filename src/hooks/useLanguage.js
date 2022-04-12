@@ -26,6 +26,7 @@ export function useLanguage(langstring = "English") {
     project,
     projectItems,
     contact,
+    about,
   } = language;
   return {
     lang,
@@ -36,5 +37,6 @@ export function useLanguage(langstring = "English") {
     project,
     projectItems,
     contact,
+    about,
   };
 }

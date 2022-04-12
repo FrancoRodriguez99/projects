@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Indie+Flower&display=swap');
+
+#about-box{
+    background: linear-gradient(to bottom,#4a94fa, #022250);
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 400px;
+}
+
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#photome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#photome img{
+    height: 25vh;
+    width: 25vw;
+    border-radius: 50%;
+    margin: 10px;
+    border-radius: 50%;
+    border: 10px;
+    border-color: #F0A64A;;
+    border-style: outset;
+
+}
+
+#photome p{
+    font-family: 'Grape Nuts', cursive;
+    font-size: 34px;
+    color: white;
+}
+
+.aboutme{
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 21px;
+}
+
+#cv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    
+}
+
+#cv p{
+    border-radius: 7%;
+    border: 5px;
+    border-color: #F0A64A;;
+    border-style: outset;
+    padding: 5px;
+}

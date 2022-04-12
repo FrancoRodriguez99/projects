@@ -2,13 +2,49 @@
     background-color: rgb(204, 190, 255);
     padding: 0;
     margin: 0;
+    background: linear-gradient(to bottom,#022250,rgb(56, 121, 56) );
+    width: 100%;
+    height: 60vh;
+    padding-bottom: 700px;
+
+    
     
 }
 
 #projects h2{
     margin: 0;
+    color: white;
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Dancing Script', cursive;
     margin-bottom: 30px;
 }
+
+#projects p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#projects h3{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#carouselbox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#Carrouseldr{
+    border: 4px;
+    border-style: inset;
+    border-color: #F0A64A;
+    width: 50vw;
+
+}
+

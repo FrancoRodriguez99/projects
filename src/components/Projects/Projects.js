@@ -4,10 +4,10 @@ import ppp from "../../assets/ppp.jpg";
 import qm from "../../assets/qm.png";
 import rfp from "../../assets/rfp.png";
 import tdl from "../../assets/tdl.PNG";
-import "./Projects.css";
-import ProjectItem from "../ProjectItem/ProjectItem";
 import { useLanguage } from "../../hooks/useLanguage";
 import { useSelector } from "react-redux";
+import Carousel from "react-bootstrap/Carousel";
+import "./Projects.css";
 
 function Projects() {
   const langstring = useSelector((state) => state.lang.lang);
@@ -17,85 +17,51 @@ function Projects() {
       <h2>
         <u>{project}</u>
       </h2>
+      <div id="carouselbox">
+        <div id="Carrouseldr">
+          <Carousel fade>
+            <Carousel.Item>
+              <img className="d-block w-100" src={ppp} alt="First slide" />
 
-      <div
-        id="carouselExampleIndicators"
-        className="carousel slide"
-        data-ride="carousel"
-      >
-        <ol className="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            className="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        </ol>
+              <Carousel.Caption>
+                <h3>{projectItems[0][0]}</h3>
+                <p>{projectItems[0][1]}</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-100" src={ecw} alt="First slide" />
 
-        <div className="carousel-inner">
-          <ProjectItem
-            href="https://codepen.io/JFrancoRodriguez/pen/oNpGGGB"
-            imgSrc={ppp}
-            active=" active"
-            projectTitle={projectItems[0][0]}
-            projectDescription={projectItems[0][1]}
-          />
+              <Carousel.Caption>
+                <h3>{projectItems[1][0]}</h3>
+                <p>{projectItems[1][1]}</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-100" src={qm} alt="First slide" />
 
-          <ProjectItem
-            href="https://francorodriguez99.github.io/ecommerceweb/"
-            imgSrc={ecw}
-            projectTitle={projectItems[1][0]}
-            projectDescription={projectItems[1][1]}
-          />
+              <Carousel.Caption>
+                <h3>{projectItems[2][0]}</h3>
+                <p>{projectItems[2][1]}</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-100" src={tdl} alt="First slide" />
 
-          <ProjectItem
-            href="https://francorodriguez99.github.io/quotemachine/"
-            imgSrc={qm}
-            projectTitle={projectItems[2][0]}
-            projectDescription={projectItems[2][1]}
-          />
+              <Carousel.Caption>
+                <h3>{projectItems[3][0]}</h3>
+                <p>{projectItems[3][1]}</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-100" src={rfp} alt="First slide" />
 
-          <ProjectItem
-            href="https://francorodriguez99.github.io/ToDoList/"
-            imgSrc={tdl}
-            projectTitle={projectItems[3][0]}
-            projectDescription={projectItems[3][1]}
-          />
-          <ProjectItem
-            href="https://codepen.io/JFrancoRodriguez/pen/WNdZZZY"
-            imgSrc={rfp}
-            projectTitle={projectItems[4][0]}
-            projectDescription={projectItems[4][1]}
-          />
+              <Carousel.Caption>
+                <h3>{projectItems[4][0]}</h3>
+                <p>{projectItems[4][1]}</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
         </div>
-
-        <a
-          className="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a
-          className="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="sr-only">Next</span>
-        </a>
       </div>
     </section>
   );
