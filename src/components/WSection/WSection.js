@@ -36,7 +36,11 @@ const WSection = (props) => {
   return (
     <div ref={myRef} id="welcome-section">
       <img src={me} alt="The Developer Itself!" id="me"></img>
-      <h1>{WSection}</h1>
+      <nav id="textofwelcome">
+        <h1>{WSection[0]}</h1>
+        <h2>{WSection[1]}</h2>
+        <h2>{WSection[2]}</h2>
+      </nav>
     </div>
   );
 };

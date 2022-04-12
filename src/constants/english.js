@@ -8,7 +8,7 @@ const english = {
     ["Русский", "(Нажмите на меня, чтобы перейти на русский язык)"],
   ],
   navBar: ["Home", "My Projects", "Contact"],
-  WSection: "Hi! :) My name is Franco, I am a Web Developer",
+  WSection: ["Hi! :)", "My name is Franco", "I work as a Web Developer"],
   project: "Some of my Projects",
   projectItems: [
     [

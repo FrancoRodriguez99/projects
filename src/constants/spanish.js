@@ -7,7 +7,7 @@ const spanish = {
     ["Русский", "(Нажмите на меня, чтобы перейти на русский язык)"],
   ],
   navBar: ["Inicio", "Mis Proyectos", "Contacto"],
-  WSection: "Hola! :) Soy Franco, Soy Desarollador Web",
+  WSection: ["Hola! :)", "Soy Franco.", "Y trabajo como Desarollador Web."],
   project: "Algunos de mis proyectos",
   projectItems: [
     [

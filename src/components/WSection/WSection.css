@@ -14,6 +14,23 @@
     font-size: 60px;
    
 }
+#welcome-section h2 {
+    
+    font-size: 60px;
+   
+}
+#welcome-section h3 {
+    
+    
+   
+}
+
+#textofwelcome{
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 #me{
     border-radius: 50%;
