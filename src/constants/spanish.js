@@ -35,7 +35,7 @@ const spanish = {
   about: [
     "Juan Franco Rodriguez (y toby)",
     'Descubrí mi pasión y amor por la programación a los 12 años programando en "pawn" un lenguaje para crear servidores multijugador de SAMP. Desde entonces siempre me mantuve aprendiendo nuevas e interesantes cosas con respecto a la programación y sus buenas prácticas. Me considero un Front-End Developer Self-Taught, amo lo que hago y espero que a ustedes también les guste. Actualmente, tengo conocimientos sobre : HTML, CSS, Boostrap, React, Redux, JavaScript, PHP, MySql, node.js, mongo.db, git, Ajax, Fetch Api, jQuerry, SASS y muchas otras herramientas que no considero relevante al desarrollo web, para cualquier consulta, mis datos están en la sección de contacto, o en el footer de la página. Les dejo mi curriculum para más información',
-    "Descargar my Curriculum",
+    "Descargar mi Curriculum",
   ],
 };
 
