@@ -21,15 +21,28 @@ function Projects() {
         <div id="Carrouseldr">
           <Carousel fade>
             <Carousel.Item>
-              <img className="d-block w-100" src={ppp} alt="First slide" />
+              <a
+                href="https://codepen.io/JFrancoRodriguez/full/oNpGGGB"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="d-block w-100" src={ppp} alt="First slide" />
+              </a>
 
               <Carousel.Caption>
                 <h3>{projectItems[0][0]}</h3>
                 <p>{projectItems[0][1]}</p>
               </Carousel.Caption>
             </Carousel.Item>
+
             <Carousel.Item>
-              <img className="d-block w-100" src={ecw} alt="First slide" />
+              <a
+                href="https://francorodriguez99.github.io/ecommerceweb/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="d-block w-100" src={ecw} alt="First slide" />
+              </a>
 
               <Carousel.Caption>
                 <h3>{projectItems[1][0]}</h3>
@@ -37,15 +50,26 @@ function Projects() {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block w-100" src={qm} alt="First slide" />
-
+              <a
+                href="https://francorodriguez99.github.io/quotemachine/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="d-block w-100" src={qm} alt="First slide" />
+              </a>
               <Carousel.Caption>
                 <h3>{projectItems[2][0]}</h3>
                 <p>{projectItems[2][1]}</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block w-100" src={tdl} alt="First slide" />
+              <a
+                href="https://francorodriguez99.github.io/ToDoList/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="d-block w-100" src={tdl} alt="First slide" />
+              </a>
 
               <Carousel.Caption>
                 <h3>{projectItems[3][0]}</h3>
@@ -53,7 +77,13 @@ function Projects() {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block w-100" src={rfp} alt="First slide" />
+              <a
+                href="https://codepen.io/JFrancoRodriguez/full/WNdZZZY"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="d-block w-100" src={rfp} alt="First slide" />
+              </a>
 
               <Carousel.Caption>
                 <h3>{projectItems[4][0]}</h3>
