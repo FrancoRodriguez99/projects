@@ -30,6 +30,10 @@ const spanish = {
       "Formulario de Satisfaccion",
       "Una pagina web para chequear la satisfaccion de un cliente con un servicio de internet/cable/telefonia",
     ],
+    [
+      "Juego RPG echo con React y Redux",
+      "Puedes equiparte , desequiparte y vender items, subir de lvl, matar enemigos, y toda esta hecho con React y Redux únicamente",
+    ],
   ],
   contact: ["GitHub", "Linkedin", "Email", "WhatsApp"],
   about: [

@@ -3,6 +3,7 @@ import ecw from "../../assets/ecw.PNG";
 import ppp from "../../assets/ppp.jpg";
 import qm from "../../assets/qm.png";
 import rfp from "../../assets/rfp.png";
+import gamereact from "../../assets/gamereact.PNG";
 import tdl from "../../assets/tdl.PNG";
 import { useLanguage } from "../../hooks/useLanguage";
 import { useSelector } from "react-redux";
@@ -49,19 +50,26 @@ function Projects() {
                 <p>{projectItems[1][1]}</p>
               </Carousel.Caption>
             </Carousel.Item>
+
             <Carousel.Item>
               <a
-                href="https://francorodriguez99.github.io/quotemachine/"
+                href="https://francorodriguez99.github.io/reactreduxgame/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="d-block w-100" src={qm} alt="First slide" />
+                <img
+                  className="d-block w-100"
+                  src={gamereact}
+                  alt="First slide"
+                />
               </a>
+
               <Carousel.Caption>
-                <h3>{projectItems[2][0]}</h3>
-                <p>{projectItems[2][1]}</p>
+                <h3>{projectItems[5][0]}</h3>
+                <p>{projectItems[5][1]}</p>
               </Carousel.Caption>
             </Carousel.Item>
+
             <Carousel.Item>
               <a
                 href="https://francorodriguez99.github.io/ToDoList/"
@@ -88,6 +96,20 @@ function Projects() {
               <Carousel.Caption>
                 <h3>{projectItems[4][0]}</h3>
                 <p>{projectItems[4][1]}</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <a
+                href="https://francorodriguez99.github.io/quotemachine/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="d-block w-100" src={qm} alt="First slide" />
+              </a>
+              <Carousel.Caption>
+                <h3>{projectItems[2][0]}</h3>
+                <p>{projectItems[2][1]}</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

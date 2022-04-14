@@ -31,6 +31,10 @@ const english = {
       "Satisfaction Formulary",
       "A web page to check a client satisfaction with a service.",
     ],
+    [
+      "RPG like game on React-Redux",
+      "You can equip, unequip, sell items, lvl up, kill enemies, all made whit React and Redux only",
+    ],
   ],
   contact: ["GitHub", "Linkedin", "Email", "WhatsApp"],
   about: [
