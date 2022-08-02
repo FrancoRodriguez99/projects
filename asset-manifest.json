@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/projects/static/css/main.f324e289.css",
+    "main.js": "/projects/static/js/main.41dff4f3.js",
+    "static/js/787.ae0246fb.chunk.js": "/projects/static/js/787.ae0246fb.chunk.js",
+    "static/media/gamereact.PNG": "/projects/static/media/gamereact.ccd134962ebeb50cfb5d.PNG",
+    "static/media/rfp.png": "/projects/static/media/rfp.78bad11b4e655f46f1cf.png",
+    "static/media/ecw.PNG": "/projects/static/media/ecw.6167b5994e11497b496c.PNG",
+    "static/media/ppp.jpg": "/projects/static/media/ppp.35caea72b3966e2b1084.jpg",
+    "static/media/me_andtoby.jpg": "/projects/static/media/me_andtoby.f3d7f92ac896551f0782.jpg",
+    "static/media/sp.png": "/projects/static/media/sp.e0052ecf9667cc25b911.png",
+    "static/media/me.png": "/projects/static/media/me.f80a0191e14a412e0e58.png",
+    "static/media/tdl.PNG": "/projects/static/media/tdl.6ef53a2113923ed1b595.PNG",
+    "static/media/FrancoRodriguez(Front-End-Developer).pdf": "/projects/static/media/FrancoRodriguez(Front-End-Developer).6e1f57da7d63f2c6f7f9.pdf",
+    "static/media/qm.png": "/projects/static/media/qm.62cb6d042bb93ce0dcbe.png",
+    "static/media/translator.png": "/projects/static/media/translator.3f47c9d96d57b20c45e6.png",
+    "index.html": "/projects/index.html",
+    "main.f324e289.css.map": "/projects/static/css/main.f324e289.css.map",
+    "main.41dff4f3.js.map": "/projects/static/js/main.41dff4f3.js.map",
+    "787.ae0246fb.chunk.js.map": "/projects/static/js/787.ae0246fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f324e289.css",
+    "static/js/main.41dff4f3.js"
+  ]
+}
